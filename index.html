@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website creation</title>
+    <style>
+      .one li {
+        padding: 12px;
+      }
+      .one {
+        list-style-type: none;
+      }
+      .image {
+        background-image: url(images/2.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .one li a {
+        text-decoration: none;
+        color: #000;
+        padding: #fff;
+        border: 1px solid transparent;
+        transition: 0.6ms ease;
+      }
+      .one a:hover {
+        background-color: #fff;
+        color: black;
+      }
+      .active a {
+        background-color: #fff;
+        color: #000;
+      }
+      .title {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .title h1 {
+        color: #fff;
+        font-size: 70px;
+      }
+      .button {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .btn {
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        color: #000;
+        text-decoration: none;
+        transition: 0.6ms ease;
+      }
+      .btn:hover {
+        background-color: #fff;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="image">
+        <br /><br />
+
+        <ul class="one">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="title">
+        <h1>WEBDEV.COM</h1>
+      </div>
+      <div class="button">
+        <a href="#" class="btn">WATCH VIDEO</a>
+        <a href="#" class="btn">LEARN MORE</a>
+      </div>
+    </header>
+  </body>
+</html>
